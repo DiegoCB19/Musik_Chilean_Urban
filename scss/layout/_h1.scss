@@ -1,0 +1,7 @@
+h1{
+    @include titulo (center, none, black, 40px);
+    height: 100%;
+    width: 40%;
+    padding-bottom: 5px;
+} 
+

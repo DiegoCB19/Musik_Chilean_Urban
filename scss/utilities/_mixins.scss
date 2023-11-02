@@ -1,0 +1,22 @@
+@mixin flex($direction,$wrap,$jusitfy,$align,$gap
+){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $jusitfy;
+    align-items:  $align;
+    gap: $gap ;
+}
+
+@mixin titulo ($align,$decoration,$color,$size){
+    text-align: $align;
+    text-decoration: $decoration;
+    color: $color;
+    font-size: $size;
+}
+
+@mixin parrafo ($font-size,) {
+    text-align: center;
+
+}
+

@@ -1,0 +1,13 @@
+.direcion{
+    @include flex(row,nowrap,center,space-around, 30px);
+    background-color: #44E3D3;
+    border-radius: 10px;
+    p{
+        @include parrafo(center);
+        color: black;
+        a{
+            list-style: none;
+            
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@media (min-width: 320px){
+    header{
+        padding: 4px 0px 4px 0px;
+    }
+    nav ul{
+        @include flex(row,space-between ,rgb(34, 33, 33),start,10px);
+        width: 100%;
+        margin: 10px;
+        li{
+            list-style: none;
+            text-align: start;
+        }
+
+    }
+
+    section{
+        background-color:whitesmoke;
+        @include flex(row,space-between ,rgb(34, 33, 33),start,10px);
+        width: 100%;
+        border-style: solid;
+        border-color: cadetblue;
+    }
+}
+
+

@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    header{
+        @include flex (column, wrap,flex-start,center, 100px );
+    }
+    nav{ 
+        height: 100%;
+    }
+}
+

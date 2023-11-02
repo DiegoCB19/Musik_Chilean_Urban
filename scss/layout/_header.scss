@@ -1,9 +1,6 @@
 header{
-    background-color: #2F3D40;
+    background-color:#44E3D3;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    color: black;
-    background-color: aqua;
-     
+    @include flex (row,nowrap,center,end,15px);
+    color: black; 
 }

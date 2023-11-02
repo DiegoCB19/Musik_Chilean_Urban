@@ -1,0 +1,4 @@
+h2{
+    @include titulo (center,overline underline,black,35px);
+    padding-top: 3px;
+}
