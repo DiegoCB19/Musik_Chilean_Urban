@@ -1,0 +1,55 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/maps";
+
+  
+@import "./layout/header";
+
+
+    h1{
+        width: 30%;
+        color: black;
+        font-size: 40px;
+        
+    }
+    nav{
+        width: 70%;
+          
+        ul{
+        display: flex;
+            li{ flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap 10px;
+                width: 100%;
+                
+                
+                
+                
+                a{  list-style: none;
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: rgb(0, 0, 0);
+                    list-style: none;
+                    &:hover{
+                        color: antiquewhite;
+                        font-size: 25px;
+                    }
+
+                }
+            }
+        
+        } 
+    }
+    
+    
+
+
+ main{
+    background-color: #3D5A73;
+ }
+
+
+ footer{
+    background-color: #2F3D40;
+ }
